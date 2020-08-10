@@ -18,13 +18,13 @@ module.exports = {
       url: 'https://github.com/lalebdi',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
       url: 'https://twitter.com/onlyanubhav',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
+      icon: 'fa-file',
+      name: 'Resume',
       url: 'https://facebook.com/theanubhav',
     },
     {
