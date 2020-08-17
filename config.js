@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Leah Portfolio', // <title>
+  siteTitle: 'Leah Portfolio | Full Stack Web Developer', // <title>
   manifestName: 'Portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -20,12 +20,12 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'https://twitter.com/onlyanubhav',
+      url: '',
     },
     {
       icon: 'fa-file',
       name: 'Resume',
-      url: 'https://facebook.com/theanubhav',
+      url: '',
     },
     {
       icon: 'fa-envelope-o',
