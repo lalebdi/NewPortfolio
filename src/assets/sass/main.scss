@@ -108,11 +108,13 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		// font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: black;
+		// color: #888;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -564,10 +566,10 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'space-between');
-		// background: #222629 url('../images/overlay.png');
-		background-image: url('../images/carbon_fiber.jpg');
-		background-size: cover;
-    	background-repeat: no-repeat;
+		background: #C5AC8C url('../images/overlay.png');
+		// background-image: url('../images/carbon_fiber.jpg');
+		// background-size: cover;
+    	// background-repeat: no-repeat;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -762,7 +764,7 @@
 
 			&.one {
 				background-color: #81918E;
-				background-image: url('../images/banner.gif');
+				background-image: url('../images/banner.jpg');
 			}
 
 			&.two {
@@ -770,11 +772,11 @@
 			}
 
 			&.three {
-				background-color: #ecf1f1;
+				background-color: #FCB03B;
 			}
 
 			&.four {
-				background-color: #e8edec;
+				background-color: #4A90E2;
 			}
 		}
 	}
@@ -967,10 +969,10 @@
 				width: _size(header);
 				z-index: _misc(z-index-base) + 2;
 				width: _size(header);
-				// background: #222729 url('../images/overlay.png');
-				background-image: url('../images/carbon_fiber.jpg');
-				background-size: cover;
-    			background-repeat: no-repeat;
+				background: #C5AC8C url('../images/overlay.png');
+				// background-image: url('../images/carbon_fiber.jpg');
+				// background-size: cover;
+    			// background-repeat: no-repeat;
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 
 				.top {
