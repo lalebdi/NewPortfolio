@@ -29,9 +29,9 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Leah</strong>
+              Hi! I'm <strong>Leah</strong>,
               <br />
-              Motivated Full Stack Web Developer. I design efficient and responsive we apps with the aim of innovating better and faster 
+              Motivated Full Stack Web Developer. I design efficient and responsive web apps. 
             </h2>
             <p>I have made few things check it out.</p>
           </header>
