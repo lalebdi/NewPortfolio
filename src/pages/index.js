@@ -63,7 +63,7 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>M.A.P</h3>
                 </header>
               </article>
               <article className="item">
@@ -71,7 +71,7 @@ const IndexPage = () => (
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Leahgram</h3>
                 </header>
               </article>
             </div>
@@ -81,7 +81,7 @@ const IndexPage = () => (
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>Bealte</h3>
                 </header>
               </article>
               <article className="item">
@@ -89,7 +89,7 @@ const IndexPage = () => (
                   <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>WhatsChat</h3>
                 </header>
               </article>
             </div>
@@ -99,7 +99,7 @@ const IndexPage = () => (
                   <img src={pic6} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3>Voice News</h3>
                 </header>
               </article>
               <article className="item">
@@ -107,7 +107,7 @@ const IndexPage = () => (
                   <img src={pic7} alt="" />
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>CryptoCharts</h3>
                 </header>
               </article>
             </div>
