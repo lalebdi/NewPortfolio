@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import Modal from 'react-modal';
 
 import Layout from '../components/Layout';
@@ -14,6 +14,9 @@ import pic7 from '../assets/images/pic7.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
+
+
+
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
@@ -21,7 +24,13 @@ const sections = [
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
-const IndexPage = () => (
+
+
+const IndexPage = () => {
+  const [ modalIsOpen, setModalIsOpen] = useState(false);
+
+  return(
+    
   <Layout>
     <SideBar sections={sections} />
 
@@ -60,13 +69,19 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a href="/#" className="image fit" onClick={ () => setModalIsOpen(true) }>
                   <img src={pic2} alt="" />
                 </a>
                 <header>
                   <h3>Make Awesome Projects</h3>
                 </header>
               </article>
+              <Modal isOpen={modalIsOpen}>
+                <div>
+                  <h1>I am the modal</h1>
+                  <button onClick={ () => setModalIsOpen(false)}>Close</button>
+                  </div>
+              </Modal>
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic3} alt="" />
@@ -169,5 +184,6 @@ const IndexPage = () => (
     <PageFooter />
   </Layout>
 );
+}
 
 export default IndexPage;
