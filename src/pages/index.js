@@ -153,7 +153,7 @@ const IndexPage = () => {
               </Modal>
               <article className="item">
                 <button className="image fit" onClick={ () => setModalIsOpen6(true)}>
-                  <img src={pic7} alt="" />
+                  <img src={pic7} alt="cryptocurrency charts" />
                 </button>
                 <header>
                   <h3>CryptoCharts</h3>
