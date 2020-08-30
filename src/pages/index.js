@@ -69,9 +69,9 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit" onClick={ () => setModalIsOpen(true) }>
+                <button  onClick={ () => setModalIsOpen(true) } className="image fit">
                   <img src={pic2} alt="" />
-                </a>
+                </button>
                 <header>
                   <h3>Make Awesome Projects</h3>
                 </header>
@@ -83,27 +83,28 @@ const IndexPage = () => {
                   </div>
               </Modal>
               <article className="item">
-                <a href="/#" className="image fit">
+                <button  className="image fit">
                   <img src={pic3} alt="" />
-                </a>
+                </button>
                 <header>
                   <h3>Leahgram</h3>
                 </header>
               </article>
+      
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <button className="image fit">
                   <img src={pic4} alt="" />
-                </a>
+                </button>
                 <header>
                   <h3>Beatle</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <button className="image fit">
                   <img src={pic5} alt="" />
-                </a>
+                </button>
                 <header>
                   <h3>WhatsChat</h3>
                 </header>
@@ -111,17 +112,17 @@ const IndexPage = () => {
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <button className="image fit">
                   <img src={pic6} alt="" />
-                </a>
+                </button>
                 <header>
                   <h3>Voice News</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <button className="image fit">
                   <img src={pic7} alt="" />
-                </a>
+                </button>
                 <header>
                   <h3>CryptoCharts</h3>
                 </header>
