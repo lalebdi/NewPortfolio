@@ -89,7 +89,7 @@ const IndexPage = () => {
               </Modal>
               <article className="item">
                 <button  className="image fit"  onClick={ () => setModalIsOpen2(true) }>
-                  <img src={pic3} alt="" />
+                  <img src={pic3} alt="instagram clone" />
                 </button>
                 <header>
                   <h3>Leahgram</h3>
