@@ -24,7 +24,7 @@ const sections = [
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
-
+Modal.setAppElement('#root');
 
 const IndexPage = () => {
   const [ modalIsOpen, setModalIsOpen] = useState(false);
@@ -81,7 +81,7 @@ const IndexPage = () => {
                   <h3>Make Awesome Projects</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen}>
+              <Modal isOpen={modalIsOpen} onRequestClose={ () => setModalIsOpen(false)}>
                 <div>
                   <h1>I am the modal</h1>
                   <button onClick={ () => setModalIsOpen(false)}>Close</button>
@@ -95,7 +95,7 @@ const IndexPage = () => {
                   <h3>Leahgram</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen2}>
+              <Modal isOpen={modalIsOpen2} onRequestClose={ () => setModalIsOpen2(false)}>
                 <div>
                   <h1>I am the modal 2</h1>
                   <p> right </p>
@@ -112,7 +112,7 @@ const IndexPage = () => {
                   <h3>Beatle</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen3}>
+              <Modal isOpen={modalIsOpen3} onRequestClose={ () => setModalIsOpen3(false)}>
                 <div>
                   <h1>I am the modal 3</h1>
                   <p> true </p>
@@ -127,7 +127,7 @@ const IndexPage = () => {
                   <h3>WhatsChat</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen4}>
+              <Modal isOpen={modalIsOpen4} onRequestClose={ () => setModalIsOpen4(false)}>
                 <div>
                   <h1>I am the modal 4</h1>
                   <p> yup </p>
@@ -144,7 +144,7 @@ const IndexPage = () => {
                   <h3>Voice News</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen5}>
+              <Modal isOpen={modalIsOpen5} onRequestClose={ () => setModalIsOpen5(false)}>
                 <div>
                   <h1>I am the modal 5</h1>
                   <p> five </p>
@@ -159,7 +159,7 @@ const IndexPage = () => {
                   <h3>CryptoCharts</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen6}>
+              <Modal isOpen={modalIsOpen6} onRequestClose={ () => setModalIsOpen6(false)}>
                 <div>
                   <h1>I am the modal 6</h1>
                   <p> final </p>
