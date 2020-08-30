@@ -28,6 +28,7 @@ const sections = [
 
 const IndexPage = () => {
   const [ modalIsOpen, setModalIsOpen] = useState(false);
+  const [ modalIsOpen2, setModalIsOpen2] = useState(false);
 
   return(
     
@@ -83,14 +84,20 @@ const IndexPage = () => {
                   </div>
               </Modal>
               <article className="item">
-                <button  className="image fit">
+                <button  className="image fit"  onClick={ () => setModalIsOpen2(true) }>
                   <img src={pic3} alt="" />
                 </button>
                 <header>
                   <h3>Leahgram</h3>
                 </header>
               </article>
-      
+              <Modal isOpen={modalIsOpen2}>
+                <div>
+                  <h1>I am the modal 2</h1>
+                  <p> right </p>
+                  <button onClick={ () => setModalIsOpen2(false)}>Close</button>
+                  </div>
+              </Modal>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
