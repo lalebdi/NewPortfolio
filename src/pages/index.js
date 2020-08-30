@@ -30,6 +30,7 @@ const IndexPage = () => {
   const [ modalIsOpen, setModalIsOpen] = useState(false);
   const [ modalIsOpen2, setModalIsOpen2] = useState(false);
   const [ modalIsOpen3, setModalIsOpen3] = useState(false);
+  const [ modalIsOpen4, setModalIsOpen4] = useState(false);
 
   return(
     
@@ -117,13 +118,20 @@ const IndexPage = () => {
                   </div>
               </Modal>
               <article className="item">
-                <button className="image fit">
+                <button className="image fit" onClick={ () => setModalIsOpen4(true)}>
                   <img src={pic5} alt="" />
                 </button>
                 <header>
                   <h3>WhatsChat</h3>
                 </header>
               </article>
+              <Modal isOpen={modalIsOpen4}>
+                <div>
+                  <h1>I am the modal 4</h1>
+                  <p> yup </p>
+                  <button onClick={ () => setModalIsOpen4(false)}>Close</button>
+                  </div>
+              </Modal>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
