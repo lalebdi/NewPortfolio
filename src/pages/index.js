@@ -121,7 +121,7 @@ const IndexPage = () => {
               </Modal>
               <article className="item">
                 <button className="image fit" onClick={ () => setModalIsOpen4(true)}>
-                  <img src={pic5} alt="" />
+                  <img src={pic5} alt="a chatting app" />
                 </button>
                 <header>
                   <h3>WhatsChat</h3>
