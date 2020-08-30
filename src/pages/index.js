@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from 'react-modal';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
@@ -63,7 +64,7 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>M.A.P</h3>
+                  <h3>Make Awesome Projects</h3>
                 </header>
               </article>
               <article className="item">
@@ -81,7 +82,7 @@ const IndexPage = () => (
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Bealte</h3>
+                  <h3>Beatle</h3>
                 </header>
               </article>
               <article className="item">
@@ -129,7 +130,7 @@ const IndexPage = () => (
           An enthusiastic and hardworking software developer. Worked on different projects that helped me adapt to changes quickly and efficiently. A healthcare professional with excellent public speaking skills and teamwork. 
           </p>
           <br />
-          <h2>My Methodology</h2>,
+          <h2>My Methodology</h2>
               <br />
               I start with exploring by putting myself in your user's shoes to understand their needs. Then, I move to planning where I define the framework and formalize the project. After, I generate several ideas to work the challenges. Later, I design and create an interactice prototype. Lastly, I test and deploy.
         </div>
