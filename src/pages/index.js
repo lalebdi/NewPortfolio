@@ -138,7 +138,7 @@ const IndexPage = () => {
             <div className="col-4 col-12-mobile">
               <article className="item">
                 <button className="image fit" onClick={ () => setModalIsOpen5(true)}>
-                  <img src={pic6} alt="" />
+                  <img src={pic6} alt="alexa clone" />
                 </button>
                 <header>
                   <h3>Voice News</h3>
