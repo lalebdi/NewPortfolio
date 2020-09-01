@@ -68,7 +68,7 @@ const IndexPage = () => {
           </header>
 
           <p>
-          Determined, quick learner with strong interpersonal skills and proven ability to manage positive and productive projects, problem solver.
+          Skilled with 
           </p>
 
           <div className="row">
