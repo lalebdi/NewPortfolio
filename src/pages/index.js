@@ -68,7 +68,7 @@ const IndexPage = () => {
           </header>
 
           <p>
-          Skilled with HTML5, CSS3, JavaScript, npm, React, GatsbyJS, Redux, SASS, 
+          Skilled with HTML5, CSS3, JavaScript, npm, React, GatsbyJS, Redux, SASS, Express, Java, Spring Boot, Maven
           </p>
 
           <div className="row">
