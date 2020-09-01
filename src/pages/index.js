@@ -24,7 +24,7 @@ const sections = [
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
-Modal.setAppElement('#root');
+// Modal.setAppElement('#root');
 
 const IndexPage = () => {
   const [ modalIsOpen, setModalIsOpen] = useState(false);
@@ -81,7 +81,7 @@ const IndexPage = () => {
                   <h3>Make Awesome Projects</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen} onRequestClose={ () => setModalIsOpen(false)} >
+              <Modal closeTimeoutMS={2000} isOpen={modalIsOpen} onRequestClose={ () => setModalIsOpen(false)} >
                 <div>
                   <h1>I am the modal</h1>
                   <button onClick={ () => setModalIsOpen(false)}>Close</button>
