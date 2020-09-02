@@ -193,8 +193,9 @@ const IndexPage = () => {
                 }
               }}>
                 <div>
-                  <h1>I am the modal 3</h1>
-                  <p> true </p>
+                  <h1>Beatle</h1>
+                  <p>A bug tracking tool that I created to help me keep track of bugs in my projects. You can create a bug and issue tickets and keep track of them.</p>
+                  <p>Stack : MERN.</p>
                   <button onClick={ () => setModalIsOpen3(false)}>Close</button>
                   </div>
               </Modal>
