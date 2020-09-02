@@ -97,7 +97,7 @@ const IndexPage = () => {
                   <h3>Leahgram</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen2} onRequestClose={ () => setModalIsOpen2(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen2} onRequestClose={ () => setModalIsOpen2(false)}>
                 <div>
                   <h1>I am the modal 2</h1>
                   <p> right </p>
@@ -114,7 +114,7 @@ const IndexPage = () => {
                   <h3>Beatle</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen3} onRequestClose={ () => setModalIsOpen3(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen3} onRequestClose={ () => setModalIsOpen3(false)}>
                 <div>
                   <h1>I am the modal 3</h1>
                   <p> true </p>
@@ -129,7 +129,7 @@ const IndexPage = () => {
                   <h3>WhatsChat</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen4} onRequestClose={ () => setModalIsOpen4(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen4} onRequestClose={ () => setModalIsOpen4(false)}>
                 <div>
                   <h1>I am the modal 4</h1>
                   <p> yup </p>
@@ -146,7 +146,7 @@ const IndexPage = () => {
                   <h3>Voice News</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen5} onRequestClose={ () => setModalIsOpen5(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen5} onRequestClose={ () => setModalIsOpen5(false)}>
                 <div>
                   <h1>I am the modal 5</h1>
                   <p> five </p>
@@ -161,7 +161,7 @@ const IndexPage = () => {
                   <h3>CryptoCharts</h3>
                 </header>
               </article>
-              <Modal isOpen={modalIsOpen6} onRequestClose={ () => setModalIsOpen6(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen6} onRequestClose={ () => setModalIsOpen6(false)}>
                 <div>
                   <h1>I am the modal 6</h1>
                   <p> final </p>
