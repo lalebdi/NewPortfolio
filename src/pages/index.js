@@ -318,8 +318,9 @@ const IndexPage = () => {
                 }
               }}>
                 <div>
-                  <h1>I am the modal 6</h1>
-                  <p> final </p>
+                  <h1>CryptoCharts</h1>
+                  <p>A live cryptocurrency price ticker with saved personal favorites and charts showing the price changes.</p>
+                  <p>Stack : React, Fuzzy, Lodash, Moments, HighCharts, and Styled-Components.</p>
                   <button onClick={ () => setModalIsOpen6(false)}>Close</button>
                   </div>
               </Modal>
