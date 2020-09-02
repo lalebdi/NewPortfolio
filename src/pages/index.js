@@ -111,9 +111,10 @@ const IndexPage = () => {
                 <div>
                 <div className="modal-content">
                 <aside className="description">
-                  <h1>Make Awesome Projects 1.0</h1>
+
+                  <h1 className="modal-heading">Make Awesome Projects 1.0</h1>
                   
-                  <p>The first version of this amazing interactive project management tool that I created to help me organize my in progress projects. M.A.P 2.0 is 75% done and will be release soon with new features such as lists and cards that drag and drop and a completely redisgned UI.</p>
+                  <p>The first version of this amazing interactive project management tool that I created to help me organize my tasks for in progress projects. M.A.P 2.0 is 75% done and will be release soon with new features such as lists and cards that drag and drop and a completely redisgned UI.</p>
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
                   </aside>
                   <img className="demo" src={pic2} alt="make awesome projects" />
