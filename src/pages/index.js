@@ -277,8 +277,9 @@ const IndexPage = () => {
                 }
               }}>
                 <div>
-                  <h1>I am the modal 5</h1>
-                  <p> five </p>
+                  <h1>Voice News</h1>
+                  <p>An Alexa clone. An interactive personal asisting tool to read the news and have a small chat with you.</p>
+                  <p>Stack : React, Material-UI, Alan AI, Words-to-Numbers, Classnames, and dotenv.</p>
                   <button onClick={ () => setModalIsOpen5(false)}>Close</button>
                   </div>
               </Modal>
