@@ -14,7 +14,7 @@ import pic7 from '../assets/images/pic7.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
-// testing
+
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -112,7 +112,14 @@ const IndexPage = () => {
                   <h1>Make Awesome Projects 1.0</h1>
                   <p>The first version of this amazing interactive project management tool that I created to help me organize my in progress projects. M.A.P 2.0 is 75% done and will be release soon with new features such as lists and cards that drag and drop and a completely redisgned UI.</p>
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
-                  <button onClick={ () => setModalIsOpen(false)}>Close</button>
+                  <div className="modal-btn">
+                  <div class="close-container" onClick={ () => setModalIsOpen(false)} >
+                        <div class="leftright"></div>
+                        <div class="rightleft"></div>
+                        <label class="close">close</label>
+                    </div>
+                  </div>
+                  
                   </div>
               </Modal>
               <article className="item">
