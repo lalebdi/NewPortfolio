@@ -194,7 +194,7 @@ const IndexPage = () => {
               }}>
                 <div>
                   <h1>Beatle</h1>
-                  <p>A bug tracking tool that I created to help me keep track of bugs in my projects. You can create a bug and issue tickets and keep track of them.</p>
+                  <p>A bug tracking tool that I created to help me keep track of bugs in my projects. You can create a bug, issue tickets and keep track of them.</p>
                   <p>Stack : MERN.</p>
                   <button onClick={ () => setModalIsOpen3(false)}>Close</button>
                   </div>
@@ -359,7 +359,7 @@ const IndexPage = () => {
             If you need to get additional inormation about my services or projects, please feel free to fill the form below, send an email or conatct me via LinkedIn. I am incredibly responsive and value your questions.
           </p>
 
-          <form method="post" action="#">
+          <form method="POST" action="https://formspree.io/xdowrjre">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
