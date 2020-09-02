@@ -15,7 +15,7 @@ import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
 
-
+// testing
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -83,7 +83,32 @@ const IndexPage = () => {
                   <h3>Make Awesome Projects</h3>
                 </header>
               </article>
-              <Modal closeTimeoutMS={500} isOpen={modalIsOpen} onRequestClose={ () => setModalIsOpen(false)} >
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen} onRequestClose={ () => setModalIsOpen(false)} style={{
+                overlay: {
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                },
+                content: {
+                  position: 'absolute',
+                  float: 'left',
+                  top: '50%',
+                  left: '50%',
+                  transform: "translate(-50%, -50%)",
+                  border: '1px solid #ccc',
+                  background: '#fff',
+                  overflow: 'auto',
+                  WebkitOverflowScrolling: 'touch',
+                  borderRadius: '4px',
+                  outline: 'none',
+                  padding: '20px',
+                  width: '70vw',
+                  height: '70vh'
+                }
+              }}>
                 <div>
                   <h1>I am the modal</h1>
                   <button onClick={ () => setModalIsOpen(false)}>Close</button>
