@@ -234,8 +234,9 @@ const IndexPage = () => {
                 }
               }}>
                 <div>
-                  <h1>I am the modal 4</h1>
-                  <p> yup </p>
+                  <h1>WhatsChat</h1>
+                  <p>A live chatting app.</p>
+                  <p>Stack : React, Socket io, React-Emoji, React-Router, Cors, Node, and Express.</p>
                   <button onClick={ () => setModalIsOpen4(false)}>Close</button>
                   </div>
               </Modal>
