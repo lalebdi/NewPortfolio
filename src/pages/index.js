@@ -15,7 +15,6 @@ import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
 
-// testing
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -122,7 +121,32 @@ const IndexPage = () => {
                   <h3>Leahgram</h3>
                 </header>
               </article>
-              <Modal closeTimeoutMS={500} isOpen={modalIsOpen2} onRequestClose={ () => setModalIsOpen2(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen2} onRequestClose={ () => setModalIsOpen2(false)} style={{
+                overlay: {
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                },
+                content: {
+                  position: 'absolute',
+                  float: 'left',
+                  top: '50%',
+                  left: '50%',
+                  transform: "translate(-50%, -50%)",
+                  border: '1px solid #ccc',
+                  background: '#fff',
+                  overflow: 'auto',
+                  WebkitOverflowScrolling: 'touch',
+                  borderRadius: '4px',
+                  outline: 'none',
+                  padding: '20px',
+                  width: '70vw',
+                  height: '70vh'
+                }
+              }}>
                 <div>
                   <h1>I am the modal 2</h1>
                   <p> right </p>
@@ -139,7 +163,32 @@ const IndexPage = () => {
                   <h3>Beatle</h3>
                 </header>
               </article>
-              <Modal closeTimeoutMS={500} isOpen={modalIsOpen3} onRequestClose={ () => setModalIsOpen3(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen3} onRequestClose={ () => setModalIsOpen3(false)} style={{
+                overlay: {
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                },
+                content: {
+                  position: 'absolute',
+                  float: 'left',
+                  top: '50%',
+                  left: '50%',
+                  transform: "translate(-50%, -50%)",
+                  border: '1px solid #ccc',
+                  background: '#fff',
+                  overflow: 'auto',
+                  WebkitOverflowScrolling: 'touch',
+                  borderRadius: '4px',
+                  outline: 'none',
+                  padding: '20px',
+                  width: '70vw',
+                  height: '70vh'
+                }
+              }}>
                 <div>
                   <h1>I am the modal 3</h1>
                   <p> true </p>
@@ -154,7 +203,32 @@ const IndexPage = () => {
                   <h3>WhatsChat</h3>
                 </header>
               </article>
-              <Modal closeTimeoutMS={500} isOpen={modalIsOpen4} onRequestClose={ () => setModalIsOpen4(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen4} onRequestClose={ () => setModalIsOpen4(false)} style={{
+                overlay: {
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                },
+                content: {
+                  position: 'absolute',
+                  float: 'left',
+                  top: '50%',
+                  left: '50%',
+                  transform: "translate(-50%, -50%)",
+                  border: '1px solid #ccc',
+                  background: '#fff',
+                  overflow: 'auto',
+                  WebkitOverflowScrolling: 'touch',
+                  borderRadius: '4px',
+                  outline: 'none',
+                  padding: '20px',
+                  width: '70vw',
+                  height: '70vh'
+                }
+              }}>
                 <div>
                   <h1>I am the modal 4</h1>
                   <p> yup </p>
@@ -171,7 +245,32 @@ const IndexPage = () => {
                   <h3>Voice News</h3>
                 </header>
               </article>
-              <Modal closeTimeoutMS={500} isOpen={modalIsOpen5} onRequestClose={ () => setModalIsOpen5(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen5} onRequestClose={ () => setModalIsOpen5(false)} style={{
+                overlay: {
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                },
+                content: {
+                  position: 'absolute',
+                  float: 'left',
+                  top: '50%',
+                  left: '50%',
+                  transform: "translate(-50%, -50%)",
+                  border: '1px solid #ccc',
+                  background: '#fff',
+                  overflow: 'auto',
+                  WebkitOverflowScrolling: 'touch',
+                  borderRadius: '4px',
+                  outline: 'none',
+                  padding: '20px',
+                  width: '70vw',
+                  height: '70vh'
+                }
+              }}>
                 <div>
                   <h1>I am the modal 5</h1>
                   <p> five </p>
@@ -186,7 +285,32 @@ const IndexPage = () => {
                   <h3>CryptoCharts</h3>
                 </header>
               </article>
-              <Modal closeTimeoutMS={500} isOpen={modalIsOpen6} onRequestClose={ () => setModalIsOpen6(false)}>
+              <Modal closeTimeoutMS={500} isOpen={modalIsOpen6} onRequestClose={ () => setModalIsOpen6(false)} style={{
+                overlay: {
+                  position: 'fixed',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                },
+                content: {
+                  position: 'absolute',
+                  float: 'left',
+                  top: '50%',
+                  left: '50%',
+                  transform: "translate(-50%, -50%)",
+                  border: '1px solid #ccc',
+                  background: '#fff',
+                  overflow: 'auto',
+                  WebkitOverflowScrolling: 'touch',
+                  borderRadius: '4px',
+                  outline: 'none',
+                  padding: '20px',
+                  width: '70vw',
+                  height: '70vh'
+                }
+              }}>
                 <div>
                   <h1>I am the modal 6</h1>
                   <p> final </p>
