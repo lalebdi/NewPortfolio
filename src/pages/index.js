@@ -14,7 +14,7 @@ import pic7 from '../assets/images/pic7.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
-
+// testing
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
@@ -150,8 +150,9 @@ const IndexPage = () => {
                 }
               }}>
                 <div>
-                  <h1>I am the modal 2</h1>
-                  <p> right </p>
+                  <h1>LeahGram</h1>
+                  <p>An instagram clone. Post and share pics with Firebase as a backend.</p>
+                  <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
                   <button onClick={ () => setModalIsOpen2(false)}>Close</button>
                   </div>
               </Modal>
