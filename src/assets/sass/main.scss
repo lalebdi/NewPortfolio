@@ -1175,11 +1175,27 @@
     opacity: 0;
 }
 
+.modal-content{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.description{
+	width: 25%;
+}
+
+.demo{
+	width: 65%;
+	height: auto;
+}
+
 // close buttons
 // COLORS
 $softorange: #F4A259;
 $tomatored: #4A90E2;
-$mediumblu: #1E272D;
+
 
 
 .close-container{
