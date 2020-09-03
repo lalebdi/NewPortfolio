@@ -118,7 +118,6 @@ const IndexPage = () => {
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
                   <button>GitHub</button>
                   <br/>
-                  <br/>
                   <button>Live Site</button>
                   </aside>
                   <img className="demo" src={pic2} alt="make awesome projects" />
@@ -168,10 +167,22 @@ const IndexPage = () => {
                 }
               }}>
                 <div>
-                  <h1>LeahGram</h1>
+                <div className="modal-content">
+                <aside className="description">
+                  <h1 className="modal-heading">LeahGram</h1>
                   <p>An instagram clone. Post and share pics with Firebase as a backend.</p>
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
-                  <button onClick={ () => setModalIsOpen2(false)}>Close</button>
+                  <button>GitHub</button>
+                  <br/>
+                  <button>Live Site</button>
+                  </aside>
+                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  </div>
+                  <div class="close-container" onClick={ () => setModalIsOpen2(false)} >
+                        <div class="leftright"></div>
+                        <div class="rightleft"></div>
+                        <label class="close">close</label>
+                    </div>
                   </div>
               </Modal>
             </div>
