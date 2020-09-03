@@ -275,11 +275,24 @@ const IndexPage = () => {
                   height: '70vh'
                 }
               }}>
-                <div>
-                  <h1>WhatsChat</h1>
+              <div>
+                <div className="modal-content">
+                <aside className="description">
+                  <h1 className="modal-heading">WhatsChat</h1>
                   <p>A live chatting app.</p>
                   <p>Stack : React, Socket io, React-Emoji, React-Router, Cors, Node, and Express.</p>
-                  <button onClick={ () => setModalIsOpen4(false)}>Close</button>
+                  
+                  <button>GitHub</button>
+                  <br/>
+                  <button>Live Site</button>
+                  </aside>
+                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  </div>
+                  <div class="close-container" onClick={ () => setModalIsOpen4(false)} >
+                        <div class="leftright"></div>
+                        <div class="rightleft"></div>
+                        <label class="close">close</label>
+                    </div>
                   </div>
               </Modal>
             </div>
@@ -318,6 +331,7 @@ const IndexPage = () => {
                   height: '70vh'
                 }
               }}>
+              
                 <div>
                   <h1>Voice News</h1>
                   <p>An Alexa clone. An interactive personal asisting tool to read the news and have a small chat with you.</p>
