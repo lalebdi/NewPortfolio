@@ -221,12 +221,25 @@ const IndexPage = () => {
                   height: '70vh'
                 }
               }}>
-                <div>
-                  <h1>Beatle</h1>
+              <div>
+                <div className="modal-content">
+                <aside className="description">
+                  <h1 className="modal-heading">Beatle</h1>
                   <p>A bug tracking tool that I created to help me keep track of bugs in my projects. You can create a bug, issue tickets and keep track of them.</p>
                   <p>Stack : MERN.</p>
-                  <button onClick={ () => setModalIsOpen3(false)}>Close</button>
+                  <button>GitHub</button>
+                  <br/>
+                  <button>Live Site</button>
+                  </aside>
+                  <img className="demo" src={pic2} alt="make awesome projects" />
                   </div>
+                  <div class="close-container" onClick={ () => setModalIsOpen3(false)} >
+                        <div class="leftright"></div>
+                        <div class="rightleft"></div>
+                        <label class="close">close</label>
+                    </div>
+                  </div>
+                
               </Modal>
               <article className="item">
                 <button className="image fit" onClick={ () => setModalIsOpen4(true)}>
