@@ -331,12 +331,24 @@ const IndexPage = () => {
                   height: '70vh'
                 }
               }}>
-              
-                <div>
-                  <h1>Voice News</h1>
+              <div>
+                <div className="modal-content">
+                <aside className="description">
+                  <h1 className="modal-heading">Voice News</h1>
                   <p>An Alexa clone. An interactive personal asisting tool to read the news and have a small chat with you.</p>
                   <p>Stack : React, Material-UI, Alan AI, Words-to-Numbers, Classnames, and dotenv.</p>
-                  <button onClick={ () => setModalIsOpen5(false)}>Close</button>
+                  
+                  <button>GitHub</button>
+                  <br/>
+                  <button>Live Site</button>
+                  </aside>
+                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  </div>
+                  <div class="close-container" onClick={ () => setModalIsOpen5(false)} >
+                        <div class="leftright"></div>
+                        <div class="rightleft"></div>
+                        <label class="close">close</label>
+                    </div>
                   </div>
               </Modal>
               <article className="item">
@@ -373,12 +385,27 @@ const IndexPage = () => {
                   height: '70vh'
                 }
               }}>
-                <div>
-                  <h1>CryptoCharts</h1>
+              <div>
+                <div className="modal-content">
+                <aside className="description">
+                  <h1 className="modal-heading">CryptoCharts</h1>
                   <p>A live cryptocurrency price ticker with saved personal favorites and charts showing the price changes.</p>
                   <p>Stack : React, Fuzzy, Lodash, Moments, HighCharts, and Styled-Components.</p>
-                  <button onClick={ () => setModalIsOpen6(false)}>Close</button>
+                  
+                  
+                  <button>GitHub</button>
+                  <br/>
+                  <button>Live Site</button>
+                  </aside>
+                  <img className="demo" src={pic2} alt="make awesome projects" />
                   </div>
+                  <div class="close-container" onClick={ () => setModalIsOpen6(false)} >
+                        <div class="leftright"></div>
+                        <div class="rightleft"></div>
+                        <label class="close">close</label>
+                    </div>
+                  </div>
+                
               </Modal>
             </div>
           </div>
