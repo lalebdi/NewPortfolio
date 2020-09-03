@@ -6,7 +6,7 @@ export default function PageFooter() {
       <ul className="copyright">
         <li>&copy; Leah Web Dev Portfolio site. All rights reserved.</li>
         <li>
-          Designed using Gatby.
+          Designed using Gatsby.
         </li>
         <li>
               Images: <a href="http://unsplash.com/">Unsplash</a>
