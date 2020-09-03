@@ -69,7 +69,7 @@ const IndexPage = () => {
           </header>
 
           <p>
-          Skilled with HTML5, CSS3, JavaScript, npm, React, GatsbyJS, Redux, SASS, Express, Java, Spring Boot, Maven, Firebase, Node, Auth0, MongoDB, PostgreSQL, MySQL, API, JSON, Git, GitHub, Jupyter, Python, Material UI and Bootstrap.
+          Skilled with HTML5, CSS3, JavaScript, npm, React, Gatsby, Redux, SASS, Express, Java, Spring Boot, Maven, Firebase, Node, Auth0, MongoDB, PostgreSQL, MySQL, API, JSON, Git, GitHub, Jupyter, Python, Material UI and Bootstrap.
           </p>
 
           <div className="row">
