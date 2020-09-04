@@ -110,8 +110,8 @@ const IndexPage = () => {
                   borderRadius: '4px',
                   outline: 'none',
                   padding: '20px',
-                  width: '70vw',
-                  height: '70vh'
+                  width: '75vw',
+                  height: '75vh'
                 }
               }}>
                 <div>
