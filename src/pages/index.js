@@ -234,8 +234,7 @@ const IndexPage = () => {
                   <p>A bug tracking tool that I created to help me keep track of bugs in my projects. You can create a bug, issue tickets and keep track of them.</p>
                   <p>To be relased soon.</p>
                   <p>Stack : MERN.</p>
-                  
-                  <button>Source Code</button>
+                  <button><a href="https://github.com/lalebdi/TheManhattanProject" target="_blank">Source Code</a></button>
                   
                   </aside>
                   <img className="demo" src={gif6} alt="bug tracking app" />
