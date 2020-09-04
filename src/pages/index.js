@@ -124,7 +124,7 @@ const IndexPage = () => {
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
                   <button><a href="https://github.com/lalebdi/MAP1.0" target="_blank">Source Code</a></button>
                   <br/>
-                  <button>Live Site</button>
+                  <button className="live-btn">Live Site</button>
                   </aside>
                   <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
@@ -234,7 +234,6 @@ const IndexPage = () => {
                   <p>To be relased soon.</p>
                   <p>Stack : MERN.</p>
                   <button><a href="https://github.com/lalebdi/TheManhattanProject" target="_blank">Source Code</a></button>
-                  
                   </aside>
                   <img className="demo" src={gif6} alt="bug tracking app" />
                   </div>
@@ -286,10 +285,9 @@ const IndexPage = () => {
                   <h1 className="modal-heading">WhatsChat</h1>
                   <p>A live chatting app.</p>
                   <p>Stack : React, Socket io, React-Emoji, React-Router, Cors, Node, and Express.</p>
-        
                   <button><a href="https://github.com/lalebdi/chatApp" target="_blank">Source Code</a></button>
                   <br/>
-                  <button>Live Site</button>
+                  <button className="live-btn" >Live Site</button>
                   </aside>
                   <img className="demo" src={gif5} alt="make awesome projects" />
                   </div>
