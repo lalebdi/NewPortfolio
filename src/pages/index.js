@@ -15,6 +15,7 @@ import pic8 from '../assets/images/pic08.jpg';
 import gif1 from '../assets/images/voiceNews.gif';
 import gif2 from '../assets/images/cryptoCharts.gif';
 import gif3 from '../assets/images/theGram.gif';
+import gif4 from '../assets/images/MAP1.0.gif';
 import Scroll from '../components/Scroll';
 
 
@@ -119,11 +120,11 @@ const IndexPage = () => {
                   
                   <p>The first version of this amazing interactive project management tool that I created to help me organize my tasks for in progress projects. M.A.P 2.0 is 75% done and will be release soon with new features such as lists and cards that drag and drop and a completely redisgned UI.</p>
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
-                  <button>GitHub</button>
+                  <button>Source Code</button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
-                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
                   
                   <div class="close-container" onClick={ () => setModalIsOpen(false)} >
@@ -175,7 +176,7 @@ const IndexPage = () => {
                   <h1 className="modal-heading">LeahGram</h1>
                   <p>An instagram clone. Post and share pics with Firebase as a backend.</p>
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
-                  <button>GitHub</button>
+                  <button>Source Code</button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
