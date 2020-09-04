@@ -17,6 +17,7 @@ import gif2 from '../assets/images/cryptoCharts.gif';
 import gif3 from '../assets/images/theGram.gif';
 import gif4 from '../assets/images/MAP1.0.gif';
 import gif5 from '../assets/images/WhatsChat.gif';
+import gif6 from '../assets/images/Beatle.gif';
 import Scroll from '../components/Scroll';
 
 
@@ -232,11 +233,11 @@ const IndexPage = () => {
                   <h1 className="modal-heading">Beatle</h1>
                   <p>A bug tracking tool that I created to help me keep track of bugs in my projects. You can create a bug, issue tickets and keep track of them.</p>
                   <p>Stack : MERN.</p>
-                  <button>GitHub</button>
+                  <button>Source Code</button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
-                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  <img className="demo" src={gif6} alt="bug tracking app" />
                   </div>
                   <div class="close-container" onClick={ () => setModalIsOpen3(false)} >
                         <div class="leftright"></div>
