@@ -398,7 +398,7 @@ const IndexPage = () => {
                   <p>Stack : React, Fuzzy, Lodash, Moments, HighCharts, and Styled-Components.</p>
                   
                   
-                  <button>GitHub</button>
+                  <button><a href="https://github.com/lalebdi/cryptoCharts" target="_blank">Source Code</a></button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
