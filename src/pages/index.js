@@ -394,10 +394,9 @@ const IndexPage = () => {
                   <p>A live cryptocurrency price ticker with saved personal favorites and charts showing the price changes.</p>
                   <p>Stack : React, Fuzzy, Lodash, Moments, HighCharts, and Styled-Components.</p>
                   
-                  
                   <button><a href="https://github.com/lalebdi/cryptoCharts" target="_blank">Source Code</a></button>
                   <br/>
-                  <button>Live Site</button>
+                  <button className="live-btn" >Live Site</button>
                   </aside>
                   <img className="demo" src={gif2} alt="Cryptocurrency" />
                   </div>
