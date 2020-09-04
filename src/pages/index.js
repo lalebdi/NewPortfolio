@@ -12,6 +12,8 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic7.jpg';
 import pic8 from '../assets/images/pic08.jpg';
+import gif1 from '../assets/images/voiceNews.gif';
+import gif2 from '../assets/images/cryptoCharts.gif'
 import Scroll from '../components/Scroll';
 
 
@@ -342,7 +344,7 @@ const IndexPage = () => {
                   <br/>
                   <button>Live Site</button>
                   </aside>
-                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  <img className="demo" src={gif1} alt="make awesome projects" />
                   </div>
                   <div class="close-container" onClick={ () => setModalIsOpen5(false)} >
                         <div class="leftright"></div>
@@ -397,7 +399,7 @@ const IndexPage = () => {
                   <br/>
                   <button>Live Site</button>
                   </aside>
-                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  <img className="demo" src={gif2} alt="Cryptocurrency" />
                   </div>
                   <div class="close-container" onClick={ () => setModalIsOpen6(false)} >
                         <div class="leftright"></div>
