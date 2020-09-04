@@ -287,11 +287,11 @@ const IndexPage = () => {
                   <p>A live chatting app.</p>
                   <p>Stack : React, Socket io, React-Emoji, React-Router, Cors, Node, and Express.</p>
                   
-                  <button>GitHub</button>
+                  <button>Source Code</button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
-                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  <img className="demo" src={gif5} alt="make awesome projects" />
                   </div>
                   <div class="close-container" onClick={ () => setModalIsOpen4(false)} >
                         <div class="leftright"></div>
