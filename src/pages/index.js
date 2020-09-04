@@ -13,7 +13,8 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic7.jpg';
 import pic8 from '../assets/images/pic08.jpg';
 import gif1 from '../assets/images/voiceNews.gif';
-import gif2 from '../assets/images/cryptoCharts.gif'
+import gif2 from '../assets/images/cryptoCharts.gif';
+import gif3 from '../assets/images/theGram.gif';
 import Scroll from '../components/Scroll';
 
 
@@ -178,7 +179,7 @@ const IndexPage = () => {
                   <br/>
                   <button>Live Site</button>
                   </aside>
-                  <img className="demo" src={pic2} alt="make awesome projects" />
+                  <img className="demo" src={gif3} alt="instagram" />
                   </div>
                   <div class="close-container" onClick={ () => setModalIsOpen2(false)} >
                         <div class="leftright"></div>
