@@ -287,8 +287,8 @@ const IndexPage = () => {
                   <h1 className="modal-heading">WhatsChat</h1>
                   <p>A live chatting app.</p>
                   <p>Stack : React, Socket io, React-Emoji, React-Router, Cors, Node, and Express.</p>
-                  
-                  <button>Source Code</button>
+        
+                  <button><a href="https://github.com/lalebdi/chatApp" target="_blank">Source Code</a></button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
