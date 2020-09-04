@@ -128,14 +128,14 @@ const IndexPage = () => {
                   </aside>
                   <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
-                  
+            
                   <div class="close-container" onClick={ () => setModalIsOpen(false)} >
                         <div class="leftright"></div>
                         <div class="rightleft"></div>
                         <label class="close">close</label>
                     </div>
                   
-                  
+          
                   </div>
               </Modal>
               <article className="item">
@@ -179,7 +179,7 @@ const IndexPage = () => {
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
                   <button><a href="https://github.com/lalebdi/TheGram" target="_blank">Source Code</a></button>
                   <br/>
-                  <button>Live Site</button>
+                  <button className="live-btn">Live Site</button>
                   </aside>
                   <img className="demo" src={gif3} alt="instagram" />
                   </div>
