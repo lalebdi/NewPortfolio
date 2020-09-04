@@ -16,6 +16,7 @@ import gif1 from '../assets/images/voiceNews.gif';
 import gif2 from '../assets/images/cryptoCharts.gif';
 import gif3 from '../assets/images/theGram.gif';
 import gif4 from '../assets/images/MAP1.0.gif';
+import gif5 from '../assets/images/WhatsChat.gif';
 import Scroll from '../components/Scroll';
 
 
