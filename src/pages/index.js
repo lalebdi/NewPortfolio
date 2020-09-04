@@ -170,15 +170,14 @@ const IndexPage = () => {
                   padding: '20px',
                   width: '70vw',
                   height: '70vh'
-                }
-              }}>
+                }}}>
                 <div>
                 <div className="modal-content">
                 <aside className="description">
                   <h1 className="modal-heading">LeahGram</h1>
                   <p>An instagram clone. Post and share pics with Firebase as a backend.</p>
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
-                  <button>Source Code</button>
+                  <button><a href="https://github.com/lalebdi/TheGram" target="_blank">Source Code</a></button>
                   <br/>
                   <button>Live Site</button>
                   </aside>
