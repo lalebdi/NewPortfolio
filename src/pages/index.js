@@ -135,7 +135,7 @@ const IndexPage = () => {
                         <label class="close">close</label>
                     </div>
                   
-          
+    
                   </div>
               </Modal>
               <article className="item">
@@ -177,7 +177,7 @@ const IndexPage = () => {
                   <h1 className="modal-heading">LeahGram</h1>
                   <p>An instagram clone. Post and share pics with Firebase as a backend.</p>
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
-                  <button><a href="https://github.com/lalebdi/TheGram" target="_blank">Source Code</a></button>
+                  <button><a href="https://github.com/lalebdi/TheGram" target="_blank" rel="noreferrer" >Source Code</a></button>
                   <br/>
                   <button className="live-btn"><a href="https://5f5533fde700eed9a95ea282--adoring-stonebraker-0be6df.netlify.app" target="_blank">Live Site</a></button>
                   </aside>
