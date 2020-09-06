@@ -394,7 +394,7 @@ const IndexPage = () => {
                   <p>A live cryptocurrency price ticker with saved personal favorites and charts showing the price changes.</p>
                   <p>Stack : React, Fuzzy, Lodash, Moments, HighCharts, and Styled-Components.</p>
                   
-                  <button><a href="https://github.com/lalebdi/cryptoCharts" target="_blank">Source Code</a></button>
+                  <button><a href="https://github.com/lalebdi/cryptoCharts" target="_blank" rel="noreferrer" >Source Code</a></button>
                   <br/>
                   <button className="live-btn" ><a href="https://5f552ffdcbf55b28043a2301--epic-ride-b0dd1f.netlify.app" target="_blank">Live Site</a></button>
                   </aside>
