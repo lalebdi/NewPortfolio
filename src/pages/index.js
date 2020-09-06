@@ -396,7 +396,7 @@ const IndexPage = () => {
                   
                   <button><a href="https://github.com/lalebdi/cryptoCharts" target="_blank" rel="noreferrer" >Source Code</a></button>
                   <br/>
-                  <button className="live-btn" ><a href="https://5f552ffdcbf55b28043a2301--epic-ride-b0dd1f.netlify.app" target="_blank">Live Site</a></button>
+                  <button className="live-btn" ><a href="https://5f552ffdcbf55b28043a2301--epic-ride-b0dd1f.netlify.app" target="_blank" rel="noreferrer" >Live Site</a></button>
                   </aside>
                   <img className="demo" src={gif2} alt="Cryptocurrency" />
                   </div>
