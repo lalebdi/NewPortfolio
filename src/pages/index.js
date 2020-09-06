@@ -179,7 +179,7 @@ const IndexPage = () => {
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
                   <button><a href="https://github.com/lalebdi/TheGram" target="_blank">Source Code</a></button>
                   <br/>
-                  <button className="live-btn">Live Site</button>
+                  <button className="live-btn"><a href="https://github.com/lalebdi/TheGram" target="_blank">Live Site</a></button>
                   </aside>
                   <img className="demo" src={gif3} alt="instagram" />
                   </div>
