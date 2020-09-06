@@ -183,7 +183,7 @@ const IndexPage = () => {
                   </aside>
                   <img className="demo" src={gif3} alt="instagram" />
                   </div>
-                  <div class="close-container" onClick={ () => setModalIsOpen2(false)} >
+                  <div class="close-container" onClick={ () => setModalIsOpen2(false)} role="button">
                         <div class="leftright"></div>
                         <div class="rightleft"></div>
                         <label class="close">close</label>
