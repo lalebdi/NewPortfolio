@@ -129,7 +129,7 @@ const IndexPage = () => {
                   <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
             
-                  <div class="close-container" onClick={ () => setModalIsOpen(false)} role="menu">
+                  <div class="close-container" onClick={ () => setModalIsOpen(false)} role="button" tabindex="0">
                         <div class="leftright"></div>
                         <div class="rightleft"></div>
                         <label class="close">close</label>
@@ -183,7 +183,7 @@ const IndexPage = () => {
                   </aside>
                   <img className="demo" src={gif3} alt="instagram" />
                   </div>
-                  <div class="close-container" onClick={ () => setModalIsOpen2(false)} role="button">
+                  <div class="close-container" onClick={ () => setModalIsOpen2(false)} role="button" tabindex="0">
                         <div class="leftright"></div>
                         <div class="rightleft"></div>
                         <label class="close">close</label>
