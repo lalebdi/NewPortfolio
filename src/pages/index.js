@@ -285,7 +285,7 @@ const IndexPage = () => {
                   <h1 className="modal-heading">WhatsChat</h1>
                   <p>A live chatting app.</p>
                   <p>Stack : React, Socket io, React-Emoji, React-Router, Cors, Node, and Express.</p>
-                  <button><a href="https://github.com/lalebdi/chatApp" target="_blank">Source Code</a></button>
+                  <button><a href="https://github.com/lalebdi/chatApp" target="_blank" rel="noreferrer" >Source Code</a></button>
                   <br/>
                   <button className="live-btn" ><a href="https://5f529d2bfd13113312e00abd--friendly-borg-6726ab.netlify.app" target="_blank">Live Site </a></button>
                   </aside>
