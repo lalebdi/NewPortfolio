@@ -124,7 +124,7 @@ const IndexPage = () => {
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
                   <button><a href="https://github.com/lalebdi/MAP1.0" target="_blank" rel="noreferrer">Source Code</a></button>
                   <br/>
-                  <button className="live-btn"> <a href="https://github.com/lalebdi/TheGram" target="_blank">Live Site</a></button>
+                  <button className="live-btn"> <a href="https://github.com/lalebdi/TheGram" target="_blank" rel="noreferrer" >Live Site</a></button>
                   </aside>
                   <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
