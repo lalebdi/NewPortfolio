@@ -60,7 +60,7 @@ const IndexPage = () => {
 
           <footer>
             <Scroll type="id" element={'portfolio'}>
-              <a href="#portfolio" className="button">
+              <a href="#portfolio" className="button" role="button">
                 Show me
               </a>
             </Scroll>
