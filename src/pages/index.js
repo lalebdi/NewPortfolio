@@ -122,7 +122,7 @@ const IndexPage = () => {
   
                   <p>The first version of this amazing interactive project management tool that I created to help me organize my tasks for in progress projects. M.A.P 2.0 is 75% done and will be release soon with new features such as lists and cards that drag and drop and a completely redisgned UI.</p>
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
-                  <button><a href="https://github.com/lalebdi/MAP1.0" target="_blank">Source Code</a></button>
+                  <button><a href="https://github.com/lalebdi/MAP1.0" target="_blank" rel="noreferrer">Source Code</a></button>
                   <br/>
                   <button className="live-btn"> <a href="https://github.com/lalebdi/TheGram" target="_blank">Live Site</a></button>
                   </aside>
