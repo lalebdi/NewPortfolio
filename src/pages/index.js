@@ -243,7 +243,7 @@ const IndexPage = () => {
                         <label class="close">close</label>
                     </div>
                   </div>
-      
+  
               </Modal>
               <article className="item">
                 <button className="image fit" onClick={ () => setModalIsOpen4(true)}>
@@ -429,17 +429,24 @@ const IndexPage = () => {
           <br />
           <h2>My Methodology</h2>
               <br />
+              <p>
               -First step is to understand the users’ needs and understand my clients’ expectations and goals.  I put myself in the end-users’ shoes to understand their needs and wants. 
-
+              </p>
+              <p>
               -Second step is planning, where I define the framework and formalize the project parameters. 
-
+              </p>
+              <p>
               -Third step - I generate several ideas to work through the project’s challenges. 
-
+              </p>
+              <p>
               -Fourth step is to design and create an interactice prototype. 
-
+              </p>
+              <p>
               -Fifth step is testing among users for functionality, ease of use, and quality testing as well as incorporating clients’ input along the way. 
-
+              </p>
+              <p>
               -Sixth and final step is to re-test, then deploy.
+              </p>
         </div>
       </section>
 
