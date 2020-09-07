@@ -424,7 +424,7 @@ const IndexPage = () => {
           </a>
 
           <p>
-          An enthusiastic and hardworking software developer. Worked on different projects that helped me adapt to changes quickly and efficiently. A healthcare professional with excellent public speaking skills and teamwork. 
+          An enthusiastic and hardworking software developer who readily adapts to changing environments, platforms, and project requirements quickly and efficiently. With a foundation as a practicing healthcare professional, I bring a decade of expertise in the medical field, together with excellent public speaking skills, and a strong value for the importance of teamwork.
           </p>
           <br />
           <h2>My Methodology</h2>
