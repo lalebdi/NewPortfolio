@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/leah-niznik-8752a41b1/',
+      url: 'www.linkedin.com/in/leah-web-dev',
     },
     {
       icon: 'fa-file',
