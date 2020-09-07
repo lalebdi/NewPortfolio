@@ -429,7 +429,17 @@ const IndexPage = () => {
           <br />
           <h2>My Methodology</h2>
               <br />
-              I start with exploring by putting myself in your user's shoes to understand their needs. Then, I move to planning where I define the framework and formalize the project. After, I generate several ideas to work the challenges. Later, I design and create an interactice prototype. Lastly, I test and deploy.
+              -First step is to understand the users’ needs and understand my clients’ expectations and goals.  I put myself in the end-users’ shoes to understand their needs and wants. 
+
+              -Second step is planning, where I define the framework and formalize the project parameters. 
+
+              -Third step - I generate several ideas to work through the project’s challenges. 
+
+              -Fourth step is to design and create an interactice prototype. 
+
+              -Fifth step is testing among users for functionality, ease of use, and quality testing as well as incorporating clients’ input along the way. 
+
+              -Sixth and final step is to re-test, then deploy.
         </div>
       </section>
 
