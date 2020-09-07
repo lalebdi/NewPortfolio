@@ -53,9 +53,9 @@ const IndexPage = () => {
             <h2 className="alt">
               Hi! I'm <strong>Leah</strong>,
               <br />
-              Motivated Full Stack Web Developer. I design efficient and responsive web apps 
+              a Motivated Full Stack Web Developer. I design efficient and responsive web apps.
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>I have made few things; check it out.</p>
           </header>
 
           <footer>
