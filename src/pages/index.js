@@ -450,7 +450,7 @@ const IndexPage = () => {
           </header>
 
           <p>
-            If you need to get additional inormation about my services or projects, please feel free to fill the form below, send an email or conatct me via LinkedIn. I am incredibly responsive and value your questions.
+          I welcome your inquiries and requests for additional information about my services or projects. Please feel free to fill in the form below, send an email, or conatct me via LinkedIn. I am incredibly responsive and value your questions.
           </p>
 
           <form method="POST" action="https://formspree.io/xdowrjre">
