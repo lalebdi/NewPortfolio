@@ -178,7 +178,7 @@ const IndexPage = () => {
                   <p>Stack : React, Auth0, Firebase, Framer Motion, JSON Pretty, and dotenv.</p>
                   <a href="https://github.com/lalebdi/TheGram" target="_blank" rel="noreferrer" ><button>Source Code</button></a>
                   <br/>
-                  <button className="live-btn"><a href="https://5f5533fde700eed9a95ea282--adoring-stonebraker-0be6df.netlify.app" target="_blank" rel="noreferrer" >Live Site</a></button>
+                  <a href="https://5f5533fde700eed9a95ea282--adoring-stonebraker-0be6df.netlify.app" target="_blank" rel="noreferrer" ><button className="live-btn">Live Site</button></a>
                   </aside>
                   <img className="demo" src={gif3} alt="instagram" />
                   </div>
