@@ -20,12 +20,12 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'www.linkedin.com/in/leah-web-dev',
+      url: 'https://www.linkedin.com/in/leah-web-dev/',
     },
     {
       icon: 'fa-file',
       name: 'Resume',
-      url: './src/assets/LeahAlebdi-UpdatedSoftwareEngResume2.2.pdf',
+      url: './cv.pdf',
     },
     {
       icon: 'fa-envelope-o',
