@@ -124,7 +124,7 @@ const IndexPage = () => {
                   <p>Stack : React, Redux, Java, Spring Boot, Axios, Bootstrap, Font-awesome, Classnames, and React Router.</p>
                   <a href="https://github.com/lalebdi/MAP1.0" target="_blank" rel="noreferrer"><button>Source Code</button></a>
                   <br/>
-                  <button className="live-btn"> <a href="https://keen-khorana-d28887.netlify.app" target="_blank" rel="noreferrer" >Live Site</a></button>
+                  <a href="https://keen-khorana-d28887.netlify.app" target="_blank" rel="noreferrer" ><button className="live-btn"> Live Site</button></a>
                   </aside>
                   <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
