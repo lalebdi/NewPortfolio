@@ -25,7 +25,7 @@ module.exports = {
     {
       icon: 'fa-file',
       name: 'Resume',
-      url: '',
+      url: './src/assets/LeahAlebdi-UpdatedSoftwareEngResume2.2.pdf',
     },
     {
       icon: 'fa-envelope-o',
