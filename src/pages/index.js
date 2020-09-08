@@ -242,7 +242,7 @@ const IndexPage = () => {
                         <label class="close">close</label>
                     </div>
                   </div>
-  
+
               </Modal>
               <article className="item">
                 <button className="image fit" onClick={ () => setModalIsOpen4(true)}>
