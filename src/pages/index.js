@@ -394,7 +394,7 @@ const IndexPage = () => {
                   <p>Stack : React, Fuzzy, Lodash, Moments, HighCharts, and Styled-Components.</p>
                   <a href="https://github.com/lalebdi/cryptoCharts" target="_blank" rel="noreferrer" ><button>Source Code</button></a>
                   <br/>
-                  <button className="live-btn" ><a href="https://5f552ffdcbf55b28043a2301--epic-ride-b0dd1f.netlify.app" target="_blank" rel="noreferrer" >Live Site</a></button>
+                  <a href="https://5f552ffdcbf55b28043a2301--epic-ride-b0dd1f.netlify.app" target="_blank" rel="noreferrer" ><button className="live-btn" >Live Site</button></a>
                   </aside>
                   <img className="demo" src={gif2} alt="Cryptocurrency" />
                   </div>
