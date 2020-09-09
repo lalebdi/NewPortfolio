@@ -128,7 +128,6 @@ const IndexPage = () => {
                   </aside>
                   <img className="demo" src={gif4} alt="make awesome projects" />
                   </div>
-            
                   <div class="close-container" onClick={ () => setModalIsOpen(false)} role="button" tabindex="0" >
                         <div class="leftright"></div>
                         <div class="rightleft"></div>
