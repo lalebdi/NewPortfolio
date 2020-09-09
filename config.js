@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `https://master.d2kfej3keqh1q4.amplifyapp.com`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   authorName: 'Leah',
   heading: 'Web Developer',
   // social
