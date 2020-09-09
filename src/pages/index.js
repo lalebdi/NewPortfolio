@@ -341,7 +341,7 @@ const IndexPage = () => {
                   <p>Stack : React, Material-UI, Alan AI, Words-to-Numbers, Classnames, and dotenv.</p>
                   <a href="https://github.com/lalebdi/AI" target="_blank" rel="noreferrer" ><button>Source Code</button></a>
                   <br/>
-                  <button className="live-btn" ><a href="https://5f55304b080cf0e07c62f16a--sad-meninsky-ae278a.netlify.app/" target="_blank" rel="noreferrer" > Live Site </a></button>
+                  <a href="https://5f55304b080cf0e07c62f16a--sad-meninsky-ae278a.netlify.app/" target="_blank" rel="noreferrer" ><button className="live-btn" > Live Site </button></a>
                   </aside>
                   <img className="demo" src={gif1} alt="alexa Clone" />
                   </div>
