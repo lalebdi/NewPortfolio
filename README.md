@@ -2,13 +2,13 @@
 <br />
 <p align="center">
   
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    
  
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">This is My Portfolio Site</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Gatsby static site!
     <br />
     
   </p>
