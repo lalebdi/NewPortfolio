@@ -57,15 +57,52 @@ This is my porfolio site that I created using Gastby. Hope you like it.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Install
+
+Make sure that you have the Gatsby CLI program installed:
+
+```sh
+npm install --global gatsby-cli
+```
+
+And run from your CLI:
+
+```sh
+gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-prologue
+```
+
+Then you can run it by:
+
+```sh
+cd gatsby-example-site
+npm install
+gatsby develop
+```
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
+### Personalization
+
+Edit `config.js` to put up your details
+
+```javascript
+module.exports = {
+  siteTitle: 'Gatsby Starter Prologue', // <title>
+  ...
+  authorName: 'Anubhav Srivastava',
+  heading: 'Web Developer',
+  // social
+  socialLinks: [
+    {
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/anubhavsrivastava',
+    }
+    ...
+  ],
+};
+
 ```
 
 ### Installation
