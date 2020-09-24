@@ -8,7 +8,7 @@
   <h3 align="center">This is My Portfolio Site</h3>
 
   <p align="center">
-    An awesome Gatsby static site!
+    An awesome Gatsby portfolio site!
     <br />
     
   </p>
