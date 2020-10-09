@@ -74,7 +74,7 @@ const IndexPage = () => {
             <h2>Portfolio</h2>
           </header>
 
-          <p>
+          <p className="body-text">
           Skilled with HTML5, CSS3, JavaScript, npm, React, Gatsby, Redux, SASS, Express, Java, Spring Boot, Maven, Firebase, Node, Auth0, MongoDB, PostgreSQL, MySQL, API, JSON, Git, GitHub, Jupyter, Python, Material UI and Bootstrap.
           </p>
 
@@ -420,28 +420,28 @@ const IndexPage = () => {
             <img src={pic8} alt="" />
           </a>
 
-          <p>
+          <p className="body-text">
           An enthusiastic and hardworking software developer who readily adapts to changing environments, platforms, and project requirements quickly and efficiently. With a foundation as a practicing healthcare professional, I bring a decade of expertise in the medical field, together with excellent public speaking skills, and a strong value for the importance of teamwork.
           </p>
           <br />
           <h2>My Methodology</h2>
               <br />
-              <p>
+              <p className="body-text">
               -First step is to understand the users’ needs and understand my clients’ expectations and goals.  I put myself in the end-users’ shoes to understand their needs and wants. 
               </p>
-              <p>
+              <p className="body-text">
               -Second step is planning, where I define the framework and formalize the project parameters. 
               </p>
-              <p>
+              <p className="body-text">
               -Third step - I generate several ideas to work through the project’s challenges. 
               </p>
-              <p>
+              <p className="body-text">
               -Fourth step is to design and create an interactice prototype. 
               </p>
-              <p>
+              <p className="body-text">
               -Fifth step is testing among users for functionality, ease of use, and quality testing as well as incorporating clients’ input along the way. 
               </p>
-              <p>
+              <p className="body-text">
               -Sixth and final step is to re-test, then deploy.
               </p>
         </div>
@@ -453,7 +453,7 @@ const IndexPage = () => {
             <h2>Contact</h2>
           </header>
 
-          <p>
+          <p className="body-text">
           I welcome your inquiries and requests for additional information about my services or projects. Please feel free to fill in the form below, send an email, or conatct me via LinkedIn. I am incredibly responsive and value your questions.
           </p>
 
