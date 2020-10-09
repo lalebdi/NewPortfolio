@@ -238,7 +238,9 @@
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
-		color: #D96AC8;
+		color: #956BBF;
+		text-align: left;
+		
 
 		@include breakpoint('wide') {
 			width: 1200px;
