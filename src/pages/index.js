@@ -55,7 +55,7 @@ const IndexPage = () => {
               <br />
               a Motivated Full Stack Web Developer. I design efficient and responsive web apps.
             </h2>
-            <p>I have made few things; check it out.</p>
+            <p>I have made few things check it out.</p>
           </header>
 
           <footer>
