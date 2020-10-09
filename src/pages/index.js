@@ -55,10 +55,10 @@ const IndexPage = () => {
               <br />
               a Motivated Full Stack Web Developer. I design efficient and responsive web apps.
             </h2>
+            </header>
+            
+            <footer className="banner-footer">
             <p>I have made few things check it out.</p>
-          </header>
-
-          <footer>
             <Scroll type="id" element={'portfolio'}>
               <a href="#portfolio" className="button" role="button">
                 Show me
