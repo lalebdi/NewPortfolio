@@ -53,28 +53,6 @@ This is my porfolio site that I created using Gastby. Hope you like it.
 
 
 
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-
-```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-
-```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-prologue
-```
-
-Then you can run it by:
-
-```sh
-cd gatsby-example-site
-npm install
-gatsby develop
-```
-
 
 ### Prerequisites
 
