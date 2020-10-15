@@ -49,7 +49,7 @@ This is my porfolio site that I created using Gastby. Hope you like it.
 * React Modal
 * Scrollspy
 * Smoothscroll-Polyfill
-
+* Font-Awesome
 
 
 <!-- GETTING STARTED -->
