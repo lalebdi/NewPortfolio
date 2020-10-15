@@ -52,8 +52,6 @@ This is my porfolio site that I created using Gastby. Hope you like it.
 * Font-Awesome
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
 ## Install
 
