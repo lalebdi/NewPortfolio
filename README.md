@@ -73,7 +73,7 @@ npm install
 <!-- USAGE EXAMPLES -->
 ## Usage
 ### This website has been deployed
-
+[https://www.leahwebdev.com](https://www.leahwebdev.com)
 
 
 <!-- CONTRIBUTING -->
