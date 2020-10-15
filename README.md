@@ -72,7 +72,7 @@ npm install
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-### Deploying using Github page
+### This website has been deployed
 
 `package.json` has a default script that uses `gh-pages` module to publish on Github pages. Simply running `npm run deploy` would publish the site on github pages.
 
