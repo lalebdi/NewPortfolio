@@ -54,10 +54,6 @@ This is my porfolio site that I created using Gastby. Hope you like it.
 
 
 
-### Prerequisites
-
-### Personalization
-
 Edit `config.js` to put up your details
 
 ```javascript
