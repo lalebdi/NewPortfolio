@@ -20,7 +20,6 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
