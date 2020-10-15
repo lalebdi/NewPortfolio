@@ -34,7 +34,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This is my porfolio site that I created using Gastby. Hope you like it.
 
