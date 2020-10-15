@@ -54,26 +54,6 @@ This is my porfolio site that I created using Gastby. Hope you like it.
 
 
 
-Edit `config.js` to put up your details
-
-```javascript
-module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
-  ...
-  authorName: 'Anubhav Srivastava',
-  heading: 'Web Developer',
-  // social
-  socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/leahwebdev',
-    }
-    ...
-  ],
-};
-
-```
 
 ### Installation
 
